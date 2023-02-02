@@ -87,7 +87,9 @@ p {
 
 .coming-soon {
   color: rgb(234, 207, 192);
-  bottom: 100px;
+  white-space: pre-wrap;
+  margin-top: 20px;
+  margin-right: 40px;
 
 }
 /* < !-- Contact me --> */
