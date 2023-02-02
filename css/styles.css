@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 h1,
 h2,
 h3 {
@@ -6,12 +10,13 @@ h3 {
 }
 
 p {
+  margin: 10px 0 20px 0;
   text-align: center;
 }
 /* < !-- Navbar --> */
 .navbar-main {
   background-color: rgb(38, 97, 80);
-  padding: 1px;
+  padding: 10px;
   padding-left: 900px;
   word-spacing: 25px;
   border-bottom: 10px solid rgb(221, 175, 148);
@@ -28,21 +33,24 @@ p {
 .main,
 h1 {
   text-align: center;
+  margin-top: 20px;
 }
+/* 
 
 /* Boxes */
 
 .first {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   background: rgb(79, 72, 70);
   position: relative;
-  margin-left: 390px;
+  margin-left: 455px;
+  margin-top: 30px;
 }
 
 .second {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   background: rgb(79, 72, 70);
   border: 10px solid rgb(234, 207, 192);
   position: relative;
@@ -51,18 +59,18 @@ h1 {
 }
 
 .third {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background: rgb(79, 72, 70);
-  border: 6px solid darkgreen;
+  border: 6px solid rgb(1, 73, 1);
   position: relative;
   margin-left: 15px;
   top: 15px;
 }
 
 .fourth {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   background: rgb(79, 72, 70);
   border: 10px solid rgb(234, 207, 192);
   position: relative;
@@ -71,17 +79,16 @@ h1 {
   top: 15px;
 }
 
-.main, h2 {
+/* .main,
+p {
   color: rgb(234, 207, 192);
-  position: relative;
 
-}
+} */
 
 .coming-soon {
-  line-height: 2px;
   color: rgb(234, 207, 192);
-  padding: 1rem 1rem;
-  margin: 1rem;
+  bottom: 100px;
+
 }
 /* < !-- Contact me --> */
 .contact-me {
@@ -92,31 +99,7 @@ h1 {
   border-top: 3px solid rgb(221, 175, 148);
 }
 
-/* .btn {
-  background: #4f4846;
-  background-image: -webkit-linear-gradient(top, #4f4846, #4f4846);
-  background-image: -moz-linear-gradient(top, #4f4846, #4f4846);
-  background-image: -ms-linear-gradient(top, #4f4846, #4f4846);
-  background-image: -o-linear-gradient(top, #4f4846, #4f4846);
-  background-image: linear-gradient(to bottom, #4f4846, #4f4846);
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 11px;
-  padding: 10px 35px 10px 35px;
-  text-decoration: none;
-line-height: 1rem;
-} */
 
-/* .name-email {
-  right: 400px;
-}
-.name-email,
-p {
-  line-height: 4px;
-} */
 
 .email,
 .name {
@@ -138,7 +121,7 @@ p {
 .footer {
   color: white;
   background-color: rgb(38, 97, 80);
-  padding: 1px 1px;
+  padding: 10px;
   text-align: center;
   border-bottom: 8px solid rgb(79, 72, 70);
 }
